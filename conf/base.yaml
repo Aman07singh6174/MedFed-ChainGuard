@@ -1,0 +1,15 @@
+num_rounds: 10
+num_clients: 3
+trust_threshold_mode: "average"   # threshold = average trust of all clients
+
+config_fit:
+  lr: 0.01
+  momentum: 0.9
+  local_epochs: 5
+
+data_path: "data/hospital_3.csv"
+
+client_resources:
+  num_cpus: 1
+  num_gpus: 0.0
+  
